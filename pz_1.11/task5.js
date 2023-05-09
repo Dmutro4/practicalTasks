@@ -1,7 +1,7 @@
 function analyzeNumber(num) {
     const result = {};
 
-    // Визначаємо чи є число позитивним або негативним
+
     if (num > 0) {
         result.positive = true;
         result.negative = false;
@@ -13,7 +13,7 @@ function analyzeNumber(num) {
         result.negative = false;
     }
 
-    // Визначаємо чи є число простим
+
     if (num <= 1) {
         result.prime = false;
     } else {
@@ -27,7 +27,7 @@ function analyzeNumber(num) {
         result.prime = isPrime;
     }
 
-    // Визначаємо чи ділеться число на 2, 5, 3, 6, 9 без залишку
+
     result.divisibleBy2 = num % 2 === 0;
     result.divisibleBy5 = num % 5 === 0;
     result.divisibleBy3 = num % 3 === 0;

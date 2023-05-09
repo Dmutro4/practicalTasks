@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #42a5f5;
+    border-bottom: 3px solid #e53935;
+}
+
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.logo_text h3 {
+    text-indent: 35px;
+    color: #ffffff;
+}
+
+.auth a {
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.section_book {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: tomato;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.section_book_text {
+    margin: 0 20px;
+}
+
+.section_book_text p {
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.close {
+    margin: 500px;
+}
+
+.long {
+    margin: 500px;
+}

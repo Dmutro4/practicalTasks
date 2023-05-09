@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #364a5a;
+    border-bottom: 3px solid #381b8d;
+}
+
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.logo_text h3 {
+    text-indent: 35px;
+    color: #ffffff;
+}
+
+.auth a {
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.section_book {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: tomato;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.section_book_text {
+    margin: 0 20px;
+}
+
+.section_book_text p {
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.health {
+    display: flex;
+    justify-content: space-between;
+    background-color: #364a5a;
+    border-bottom: 3px solid #381b8d;
+    margin: 500px 0;
+}
+
+.long {
+    margin: 300px 0;
+}
+
+.fast h3 {
+    background-color: #c2431c;
+    text-align: center;
+    color: #bdbdbd
+}
+
+.helth {
+    height: 200px;
+    width: 300px;
+    background-color: #381b8d;
+    border: 2px solid red;
+}
+
+.eryp {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 81, 81);
+    border: 2px #0d1013;
+    padding: 25px 10px;
+}
+
+.moth {
+    padding: 25px 10px;
+    margin-left: 500px;
+    font-size: large;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tes {
+    color: aqua;
+}
+
+.foter {
+    margin: 550px 0;
+}
+
+.footer {
+    margin: 430px 0;
+}
